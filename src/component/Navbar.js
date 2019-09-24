@@ -13,7 +13,19 @@ function Navbar() {
 			<div className="collapse navbar-collapse" id="navbarResponsive">
 				<ul className="navbar-nav ml-auto">
 					<li className="nav-item">
-						<a className="nav-link" href="#">Home</a>
+						<a className="nav-link active" href="#">Home</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link " href="#">Resume</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link " href="#">Sample Work</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link " href="#">Articals</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#">Contact</a>
 					</li>
 				</ul>
 			</div>

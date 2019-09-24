@@ -2,11 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
+import Navbar from './component/Navbar'
 
 function App() {
   return (
-    <div className="container bg-dark text-white">
-		<h1> Bhargav Ajit Vyas...</h1>
+    <div className="container-fluid">
+		
+		<Navbar/>
     </div>
   );
 }
